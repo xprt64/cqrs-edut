@@ -1,0 +1,21 @@
+{
+  "name": "gica/sqrs",
+  "description": "learning sqrs",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Constantin Galbenu",
+      "email": "gica.galbenu@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "6.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cqrs\\": "src/infrastructure",
+      "Domain\\": "src/domain"
+    }
+  }
+}
